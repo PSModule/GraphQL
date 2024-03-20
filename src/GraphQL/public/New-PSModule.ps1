@@ -1,4 +1,4 @@
-﻿Function Set-PSModule {
+﻿Function New-PSModule {
     <#
         .SYNOPSIS
         Performs tests on a module.
@@ -9,7 +9,7 @@
         "Hello, World!"
     #>
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute(
-        'PSUseShouldProcessForStateChangingFunctions', '', Scope='Function',
+        'PSUseShouldProcessForStateChangingFunctions', '', Scope = 'Function',
         Justification = 'Reason for suppressing'
     )]
     [CmdletBinding()]
